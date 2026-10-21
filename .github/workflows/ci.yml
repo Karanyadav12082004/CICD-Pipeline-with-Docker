@@ -79,7 +79,7 @@ jobs:
           severity: CRITICAL,HIGH
           ignore-unfixed: true
           exit-code: '0'
-          s
+          
       - name: Build and push image
         uses: docker/build-push-action@v6
         with:
